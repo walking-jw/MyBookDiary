@@ -9,12 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyBookDiary">
-        <activity android:name=".Activity.MainActivity">
+        <activity android:name=".Activity.LogoActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".Activity.BookAddActivity" />
+        <activity android:name=".Activity.BookDetailActivity" />
+        <activity android:name=".Activity.BookListActivity" />
+        <activity android:name=".Activity.MainActivity">
+
         </activity>
     </application>
 
