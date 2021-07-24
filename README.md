@@ -22,6 +22,6 @@ NAVER Book API <br>
 
 > ### Participants 💻 <br>
 
-권효은, 박재원, 양형준, 최수훈br>
+권효은, 박재원, 양형준, 최수훈
 <br>
  
