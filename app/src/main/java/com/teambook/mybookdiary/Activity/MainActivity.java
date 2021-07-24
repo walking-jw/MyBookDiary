@@ -1,8 +1,10 @@
-package com.teambook.mybookdiary;
+package com.teambook.mybookdiary.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.teambook.mybookdiary.R;
 
 public class MainActivity extends AppCompatActivity {
 
