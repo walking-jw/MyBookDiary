@@ -12,7 +12,7 @@ public class BookInfo extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        String query = "CREATE TABLE mybook(id INTEGER PRIMARY KEY AUTOINCREMENT, bookname TEXT);";
+        String query = "CREATE TABLE mybook(seqno INTEGER PRIMARY KEY AUTOINCREMENT, booktitle TEXT, author TEXT, finishdate INTEGER, submitdate INTEGER, review TEXT, imageurl TEXT);";
         db.execSQL(query);
     }
 
