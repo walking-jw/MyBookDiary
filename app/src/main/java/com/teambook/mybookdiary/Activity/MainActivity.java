@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         floatingbtn = findViewById(R.id.fbtn_new);
         textView = findViewById(R.id.tv_count);
 
-        // 
+        //
         btn_ToAdd.setOnClickListener(onClickListener);
         btn_ToDetail.setOnClickListener(onClickListener);
         btn_ToList.setOnClickListener(onClickListener);
